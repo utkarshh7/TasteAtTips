@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
   res.render('home', { title: 'Home | TasteAtTips' });
 });
 
-const productRoutes = require('./routes/product.routes');
+const productRoutes = require('./routes/product.routes.js');
 app.use(productRoutes);
 
 // Server Listen
