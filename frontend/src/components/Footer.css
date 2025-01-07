@@ -1,0 +1,19 @@
+/* Footer.css */
+.footer {
+    background-color: #f8f9fa; /* Light background for the footer */
+  }
+  
+  .map-container {
+    margin-top: 10px;
+    border-radius: 8px; /* Rounded corners for the map */
+    overflow: hidden; /* Hide overflow */
+  }
+  
+  .footer h5 {
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .footer p {
+    margin: 0;
+  }

@@ -1,0 +1,29 @@
+/* App.css */
+.nav-link {
+  position: relative;
+  padding: 10px 15px;
+  color: #333; /* Text color */
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.icon-button {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.icon-button i {
+  margin-right: 8px; /* Space between icon and text */
+}
+
+.navbar-toggler {
+  border: none; /* Remove border from the toggler */
+}
+
+.navbar-toggler-icon {
+  background-color: #007bff; /* Change color of the toggler icon */
+}

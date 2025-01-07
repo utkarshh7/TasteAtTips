@@ -1,0 +1,16 @@
+.home {
+    background-color: #f8f9fa; /* Light background for the home page */
+    padding: 20px 0; /* Vertical padding */
+  }
+  
+  .carousel-item img {
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    height: 500px; /* Fixed height for the carousel images */
+  }
+  
+  .reviews {
+    background-color: #ffffff; /* White background for the reviews section */
+    padding: 40px; /* Padding around the reviews */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
