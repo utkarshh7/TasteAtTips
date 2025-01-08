@@ -13,7 +13,7 @@ function Home() {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src='/images/slider-1.avif' className="d-block w-100" alt="Dish 1" />
+            <img src="/images/slider-1.avif" className="d-block w-100" alt="Dish 1" />
             <div className="carousel-caption d-none d-md-block">
               <h5 className="text-white display-4 font-weight-bold">TasteAtTips</h5>
             </div>
@@ -33,17 +33,21 @@ function Home() {
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden"></span>
+          <span className="visually-hidden">Previous</span>
         </button>
         <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden"></span>
+          <span className="visually-hidden">Next</span>
         </button>
       </div>
 
       <div className="d-flex justify-content-between align-items-start mt-5">
         <div className="image-box" style={{ flex: '1', marginRight: '20px' }}>
-          <img src="https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?q=80&w=1789&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Review" className="img-fluid rounded" />
+          <img 
+            src="https://plus.unsplash.com/premium_photo-1661883237884-263e8de8869b?q=80&w=600&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" 
+            alt="Review" 
+            className="img-fluid rounded" 
+          />
         </div>
         <div className="reviews-box" style={{ flex: '1', maxWidth: '300px', paddingRight: '50px' }}>
           <div className="bg-white p-4 rounded shadow">

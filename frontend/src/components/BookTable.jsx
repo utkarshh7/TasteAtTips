@@ -45,10 +45,10 @@ function BookTable() {
         </form>
         <div className="restaurant-location text-center mt-6">
           <h2 className="text-xl font-semibold text-gray-800">Our Location</h2>
-          <p className="text-gray-600">123 Food Street, Culinary City</p>
+          <p className="text-gray-600">ABES Engineering College, Ghaziabad</p>
           <iframe
             title="Google Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.687690!2d-122.420053!3d37.779026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809a!2sRestaurant!5e0!3m2!1sen!2sus!4v1570729022633"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.123456789012!2d77.4430179!3d28.6340537!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee22c60837b7%3A0x7c35343eceb7bde0!2sABES%20Engineering%20College!5e0!3m2!1sen!2sin!4v1631234567890!5m2!1sen!2sin"
             width="100%"
             height="450"
             style={{ border: 0 }}
