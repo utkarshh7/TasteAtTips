@@ -1,32 +1,86 @@
 [
-    { "name": "Pizza Margherita", "image": "/images/pizza.jpg", "description": "Classic Italian pizza with fresh basil and mozzarella." },
-    { "name": "Spaghetti Carbonara", "image": "/images/spaghetti.jpg", "description": "Creamy pasta with pancetta and Parmesan cheese." },
-    { "name": "Lasagna", "image": "/images/lasagna.jpg", "description": "Layered pasta dish with meat sauce, cheese, and béchamel sauce." },
-    { "name": "Chicken Parmesan", "image": "/images/chicken_parmesan.jpg", "description": "Breaded chicken cutlets topped with marinara sauce and mozzarella cheese." },
-    { "name": "Caesar Salad", "image": "/images/caesar_salad.jpg", "description": "Crisp romaine lettuce with croutons, Parmesan cheese, and a creamy dressing." },
-    { "name": "Grilled Cheese Sandwich", "image": "/images/grilled_cheese.jpg", "description": "Classic sandwich with melted cheese on bread." },
-    { "name": "Hamburger", "image": "/images/hamburger.jpg", "description": "Ground beef patty cooked on a grill or pan." },
-    { "name": "French Fries", "image": "/images/french_fries.jpg", "description": "Deep-fried potato strips." },
-    { "name": "Sushi", "image": "/images/sushi.jpg", "description": "Japanese dish of seasoned rice topped with raw fish or vegetables." },
-    { "name": "Pad Thai", "image": "/images/pad_thai.jpg", "description": "Stir-fried rice noodles with vegetables, meat, and a peanut sauce." },
-    { "name": "Butter Chicken", "image": "/images/butter_chicken.jpg", "description": "Indian dish of chicken cooked in a creamy tomato-based sauce." },
-    { "name": "Biryani", "image": "/images/biryani.jpg", "description": "Indian rice dish with meat, vegetables, and spices." },
-    { "name": "Tacos", "image": "/images/tacos.jpg", "description": "Mexican dish of corn or flour tortillas filled with meat, vegetables, and cheese." },
-    { "name": "Burritos", "image": "/images/burritos.jpg", "description": "Mexican dish of large flour tortillas filled with meat, beans, rice, and vegetables." },
-    { "name": "Nachos", "image": "/images/nachos.jpg", "description": "Mexican dish of tortilla chips topped with cheese, salsa, and other toppings." },
-    { "name": "Guacamole", "image": "/images/guacamole.jpg", "description": "Mexican dip made from mashed avocados, tomatoes, onions, and spices." },
-    { "name": "Fajitas", "image": "/images/fajitas.jpg", "description": "Mexican dish of grilled meat and vegetables served with tortillas." },
-    { "name": "Enchiladas", "image": "/images/enchiladas.jpg", "description": "Mexican dish of corn tortillas filled with meat, cheese, and sauce." },
-    { "name": "Chili", "image": "/images/chili.jpg", "description": "Spicy stew made with meat, beans, and vegetables." },
-    { "name": "Mac and Cheese", "image": "/images/mac_and_cheese.jpg", "description": "Pasta dish with a creamy cheese sauce." },
-    { "name": "Chicken Noodle Soup", "image": "/images/chicken_noodle_soup.jpg", "description": "Soup with chicken, noodles, and vegetables." },
-    { "name": "Tomato Soup", "image": "/images/tomato_soup.jpg", "description": "Soup made from tomatoes, onions, and spices." },
-    { "name": "French Onion Soup", "image": "/images/french_onion_soup.jpg", "description": "Soup with onions, beef broth, and cheese." },
-    { "name": "Steak", "image": "/images/steak.jpg", "description": "Sliced beef cooked to the desired doneness." },
-    { "name": "Salmon", "image": "/images/salmon.jpg", "description": "Grilled or baked salmon fillet." },
-    { "name": "Shrimp", "image": "/images/shrimp.jpg", "description": "Cooked shrimp." },
-    { "name": "Sushi", "image": "/images/sushi.jpg", "description": "Japanese dish of seasoned rice topped with raw fish or vegetables." },
-    { "name": "Pad Thai", "image": "/images/pad_thai.jpg", "description": "Stir-fried rice noodles with vegetables, meat, and a peanut sauce." },
-    { "name": "Chocolate Chip Cookies", "image": "/images/chocolate_chip_cookies.jpg", "description": "Sweet cookies with chocolate chips." },
-    { "name": "Ice Cream", "image": "/images/ice_cream.jpg", "description": "Frozen dessert made from cream, milk, sugar, and flavorings." }
-  ]
+  {
+    "name": "Pizza Margherita",
+    "image": "https://plus.unsplash.com/premium_photo-1661762555601-47d088a26b50?q=80&w=1792&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Classic Italian pizza with fresh basil and mozzarella.",
+    "veg": true,
+    "price": 350
+  },
+  {
+    "name": "Lasagna",
+    "image": "https://plus.unsplash.com/premium_photo-1671559021019-0268c54511b8?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Layered pasta dish with meat sauce, cheese, and béchamel sauce.",
+    "veg": false,
+    "price": 450
+  },
+  {
+    "name": "Chicken Parmesan",
+    "image": "https://images.unsplash.com/photo-1632778149955-e80f8ceca2e8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Breaded chicken cutlets topped with marinara sauce and mozzarella cheese.",
+    "veg": false,
+    "price": 500
+  },
+  {
+    "name": "Caesar Salad",
+    "image": "https://www.allrecipes.com/thmb/mXZ0Tulwn3x9_YB_ZbkiTveDYFE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/229063-Classic-Restaurant-Caesar-Salad-ddmfs-4x3-231-89bafa5e54dd4a8c933cf2a5f9f12a6f.jpg",
+    "description": "Crisp romaine lettuce with croutons, Parmesan cheese, and a creamy dressing.",
+    "veg": true,
+    "price": 250
+  },
+  {
+    "name": "Grilled Cheese Sandwich",
+    "image": "https://images.unsplash.com/photo-1604467707321-70d5ac45adda?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Classic sandwich with melted cheese on bread.",
+    "veg": true,
+    "price": 200
+  },
+  {
+    "name": "Hamburger",
+    "image": "https://plus.unsplash.com/premium_photo-1664472637341-3ec829d1f4df?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Ground beef patty cooked on a grill or pan.",
+    "veg": false,
+    "price": 300
+  },
+  {
+    "name": "French Fries",
+    "image": "https://plus.unsplash.com/premium_photo-1683121324474-83460636b0ed?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Deep-fried potato strips.",
+    "veg": true,
+    "price": 150
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "image": "https://images.unsplash.com/photo-1589899476517-788c80278a14?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Creamy pasta with pancetta and Parmesan cheese.",
+    "veg": false,
+    "price": 400
+  },
+  {
+    "name": "Sushi",
+    "image": "https://plus.unsplash.com/premium_photo-1668146927669-f2edf6e86f6f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Japanese dish of seasoned rice topped with raw fish or vegetables.",
+    "veg": false,
+    "price": 600
+  },
+  {
+    "name": "Pad Thai",
+    "image": "https://plus.unsplash.com/premium_photo-1664472637341-3ec829d1f4df?q=80&w=1925&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Stir-fried rice noodles with vegetables, meat, and a peanut sauce.",
+    "veg": true,
+    "price": 350
+  },
+  {
+    "name": "Butter Chicken",
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Indian dish of chicken cooked in a creamy tomato-based sauce.",
+    "veg": false,
+    "price": 450
+  },
+  {
+    "name": "Biryani",
+    "image": "https://plus.unsplash.com/premium_photo-1694141253763-209b4c8f8ace?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "description": "Indian rice dish with meat, vegetables, and spices.",
+    "veg": false,
+    "price": 400
+  }
+]

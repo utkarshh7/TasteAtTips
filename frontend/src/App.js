@@ -45,7 +45,7 @@ function NavBar() {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
+          <ul className="navbar-nav ms-auto"> {/* ms-auto pushes items to the right */}
             <li className="nav-item">
               <Link className="nav-link icon-button" to="/">
                 <i className="fas fa-home"></i> Home

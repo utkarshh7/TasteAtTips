@@ -27,3 +27,8 @@
 .navbar-toggler-icon {
   background-color: #007bff; /* Change color of the toggler icon */
 }
+
+/* Additional styles for navbar items */
+.navbar-nav .nav-item {
+  margin-left: 15px; /* Add spacing between navbar items */
+}

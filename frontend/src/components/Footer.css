@@ -1,19 +1,44 @@
-/* Footer.css */
 .footer {
-    background-color: #f8f9fa; /* Light background for the footer */
-  }
-  
-  .map-container {
-    margin-top: 10px;
-    border-radius: 8px; /* Rounded corners for the map */
-    overflow: hidden; /* Hide overflow */
-  }
-  
-  .footer h5 {
-    margin-bottom: 20px;
-    font-weight: bold;
-  }
-  
-  .footer p {
-    margin: 0;
-  }
+  background-color: #343a40; /* Dark background for the footer */
+  color: white; /* White text color */
+  padding: 20px 0; /* Vertical padding */
+}
+
+.map-container {
+  margin-top: 10px;
+  border-radius: 8px; /* Rounded corners for the map */
+  overflow: hidden; /* Hide overflow */
+}
+
+.footer h5 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.footer .footer-bottom {
+  background-color: #212529; /* Darker background for the bottom section */
+  padding: 10px 0; /* Padding for the bottom section */
+  color: white; /* White text color */
+}
+
+.social-media {
+  display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  margin-top: 10px;
+}
+
+.social-icon {
+  margin-right: 15px;
+  color: #000; /* Change to your desired color */
+  text-decoration: none;
+  display: flex; /* Ensure the icon is treated as a flex item */
+  align-items: center; /* Center the icon vertically */
+}
+
+.social-icon:hover {
+  color: #007bff; /* Change to your desired hover color */
+}

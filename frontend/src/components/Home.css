@@ -1,16 +1,47 @@
 .home {
-    background-color: #f8f9fa; /* Light background for the home page */
-    padding: 20px 0; /* Vertical padding */
-  }
-  
-  .carousel-item img {
-    object-fit: cover; /* Ensures images cover the area without distortion */
-    height: 500px; /* Fixed height for the carousel images */
-  }
-  
-  .reviews {
-    background-color: #ffffff; /* White background for the reviews section */
-    padding: 40px; /* Padding around the reviews */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  }
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 500px;
+}
+
+.reviews {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-size: 3rem; 
+  font-weight: bold; 
+}
+
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.image-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.reviews-box {
+  max-width: 300px;
+  flex: 1;
+  padding-right: 100px; /* Add padding to the right */
+}
