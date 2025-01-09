@@ -92,5 +92,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ by Utkarsh Dubey & Utsav Tripathi.
+Made with ❤️ by Utkarsh Dubey.
 
