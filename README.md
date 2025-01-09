@@ -1,6 +1,6 @@
 <h2>🍴 TasteAtTips</h2>
 
-<p>Welcome to the **TasteAtTips** project! This repository contains the code for the user interface of a modern and interactive restaurant website. Whether you're looking to explore the menu, make reservations, or order online, this website has it all! 🎉</p>
+<p>Welcome to TasteAtTips! This repository contains the code for the user interface of a modern and interactive restaurant website. Whether you're looking to explore the menu, make reservations, or order online, this website has it all! 🎉</p>
 
 ---
 
