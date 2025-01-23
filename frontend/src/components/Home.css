@@ -43,5 +43,5 @@
 .reviews-box {
   max-width: 300px;
   flex: 1;
-  padding-right: 100px; /* Add padding to the right */
+  padding-right: 100px;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import dishes from '../dishes.json';
-import './OrderOnline.css'; // Import custom styles for OrderOnline
+import './OrderOnline.css';
 
 function OrderOnline() {
   return (
